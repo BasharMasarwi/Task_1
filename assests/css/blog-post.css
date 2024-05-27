@@ -151,3 +151,32 @@ footer p {
   margin-right: 1rem;
   font-size: 2.5rem;
 }
+
+@media (max-width: 674px) {
+  .container{
+    grid-template-rows:auto  auto auto  auto;
+    grid-template-areas: 
+    "hd hd hd hd hd hd  "
+    "sd sd sd sd sd sd  "
+    "main main main main main main "
+    "ft ft ft ft ft ft ";
+}
+
+.photo img{
+  width: 150px;
+}
+
+.header{
+  padding: 10px;
+}
+
+
+
+}
+@media (max-width: 578px) {
+  .footer{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+

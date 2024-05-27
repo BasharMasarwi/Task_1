@@ -17,15 +17,21 @@ a{
   font-style: italic;
 }
 .container{
-  /* Step 1: Set display to grid */
     display:grid;
- /* Step 2: setup rows amd columns */
     grid-template-columns: 150px 300px 300px;
     grid-template-rows: 70px 500px 68px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
     "ft ft ft ft ft ft ft ft";
+}
+figcaption{
+  text-align: left;
+  margin-left: 10px;
+  font-style: italic;
+  color: #eff0d2;
+  font-family: 'Rowdies', cursive;
+  font-size: 10px;
 }
 .box{
   background: #eff0d2;
@@ -181,4 +187,66 @@ footer p{
   font-style: italic;
   font-size: 20px;
   color: rgb(41, 37, 37);
+}
+@media (max-width: 1100px) {
+  .container{
+    grid-template-rows:auto  auto   auto;
+ 
+}
+.photo img{
+  width: 100px;
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sidebar{
+ 
+  padding-bottom: 120px;
+  justify-content: center;
+}
+.info{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer{
+  padding-bottom: 20px;
+
+}
+}
+@media (max-width: 600px) {
+  .container{
+    
+    grid-template-rows:auto  auto auto  auto;
+    grid-template-areas: 
+    "hd hd hd hd hd hd  "
+    "sd sd sd sd sd sd  "
+    "main main main main main main "
+    "ft ft ft ft ft ft ";
+}
+
+.photo img{
+  width: 180px;
+}
+.sidebar{
+ 
+padding-top: 10%;
+}
+.header{
+  padding: 10px;
+}
+.btn{
+ margin-bottom:20px 
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer{
+  padding-bottom: 20px;
+
+}
 }
