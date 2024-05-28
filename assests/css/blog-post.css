@@ -179,4 +179,16 @@ footer p {
     margin-top: 40px;
   }
 }
+@media (max-width: 507px) {
+  .footer{
+    flex-direction: column;
+    padding-top:20px;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 414px){
+.footer{
+  margin-top: 220px;
+}
+}
 
