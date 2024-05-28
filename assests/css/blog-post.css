@@ -105,7 +105,7 @@ footer {
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
-  background-color: rgba(169, 231, 205, 0.767);
+  background-color: rgb(225, 235, 235);
   text-align: center;
   color: white;
 }
