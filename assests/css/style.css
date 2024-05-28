@@ -243,6 +243,7 @@ padding-top: 10%;
  margin-bottom:20px 
 }
 .card{
+  width:55%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -253,7 +254,6 @@ footer{
 }
 @media (max-width: 578px) {
  .footer{
-
    margin: 0px;
  }
 }

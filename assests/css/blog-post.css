@@ -180,6 +180,15 @@ footer p {
   }
 }
 @media (max-width: 507px) {
+.header{
+  display: flex;
+  flex-direction: column;
+
+}
+.auth{
+  padding-top: 10%;
+}
+
   .footer{
     flex-direction: column;
     padding-top:20px;
